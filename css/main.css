@@ -1,0 +1,128 @@
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.content{
+    background: #E1E2E1;
+    height: 100%;
+}
+.header{
+    background: #263238;
+    height: 50px;
+    padding: 8px;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+.header img{
+    height: 100%;
+}
+.card-box{
+    background: #fafafa;
+    margin-top: 50px;
+    
+    border: 1px solid #9b9b9b;
+}
+.header-cardbox{
+    margin-top: 15px;
+    height: 123.75px;
+    padding: 0 15px;
+}
+.app-icon{
+    display: inline-block;
+    padding: 0px;
+    -webkit-box-shadow: 0px 1.5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1.5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1.5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.app-icon img{
+    width: 100%;
+    height: 100%;
+}
+.app-title{
+    position: relative;
+    width: 83%;
+    float: right; 
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.app-title p{
+    margin: 0px;
+}
+.app-description{
+    padding: 30px 5px;
+    width: 100%;
+}
+.download-app{
+    display: inline-block;
+    background: #d07b32;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #a35f23;
+    text-decoration: none;
+}
+.download-app:hover{
+    color: #fff;
+    text-decoration: none;
+    background: #b96c29;
+}
+.app-description-version{
+    position: relative;
+    width: 80%;
+    float: left;
+}
+.details-version{
+    width: 100%;
+}
+.list-details{
+    padding-left: 10px;
+}
+.list-details span{
+    margin-right: 5px;
+}
+.list-details, .list-details ul{
+    list-style: none;
+}
+.list-details ul{
+    padding: 5px;
+}
+.list-details ul li{
+    padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    border-left: 2px solid #ccc;
+}
+.option{
+    float: right;
+}
+.option a{
+    color: #fff;
+}
+.option a:hover{
+    text-decoration: none;
+}
+.h-responsive{
+    color: #fff;
+}
+.m-option{
+    background: #263238;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    height: 0px;
+    display: none;
+}
+.m-option a{
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+.menu{
+    margin-right: 5px;
+    float: right;
+    cursor: pointer;
+}
