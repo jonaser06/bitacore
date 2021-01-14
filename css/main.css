@@ -1,7 +1,9 @@
 
 .content{
+    position: absolute;
     background: #E1E2E1;
     height: 100%;
+    width: 100%;
 }
 .header{
     background: #263238;
