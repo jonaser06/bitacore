@@ -2,7 +2,7 @@
 .content{
     position: absolute;
     background: #E1E2E1;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 .header{
